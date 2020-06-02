@@ -1,0 +1,58 @@
+/*           texts        */
+.cu-text-center{text-align: center;}.cu-text-eq{text-align: justify;}.cu-text-right{text-align: right;}.cu-text-invert{direction: rtl; unicode-bidi: bidi-override;}
+.cu-textimg-top{vertical-align: top; max-height: 50px; max-width:270px;}.cu-textimg-middle{vertical-align: middle;max-height: 50px; max-width:270px;}.cu-textimg-bottom{vertical-align: bottom;max-height: 50px; max-width:270px;}
+.cu-text-blanc{text-decoration: none;}.cu-underlinemax{text-decoration: underline;}.cu-thruline{text-decoration: line-through;}
+.cu-textupper{text-transform: uppercase;}.cu-textlower{text-transform: lowercase;}.cu-textcamel{text-transform: capitalize;}
+.cu-indent{text-indent: 50px;}
+.cu-wide{letter-spacing: 4px;}
+.cu-textshadow{text-shadow: 2px 2px;}.cu-textblur{ text-shadow: 2px 2px 5px powderblue;}/* color can change */
+
+/*          fonts        */
+/* add the following to html:
+
+<link href="https://fonts.googleapis.com/css2?family=Piedra&family=Tangerine&family=Akronim&family=Kalam&family=Arizonia&family=Libre+Barcode+128&family=Permanent+Marker&family=Geo&display=swap" rel="stylesheet">
+
+*/
+.cst-tangerine{font-family: 'Tangerine', cursive;}.cst-tangerine-bold{font-weight: 700;}.cst-tangerine-reg{font-weight: 400;}
+.cst-pammark{font-family: 'Permanent Marker', cursive; font-weight: 700;}
+.cst-kalam{font-family: 'Kalam', cursive;}.cst-kalam-med{font-weight: 500; font-size: 2em;}.cst-kalam-lrg{font-weight: 800; font-size: 4em;}
+.cst-libre_bar{font-family: 'Libre Barcode 128', cursive;}
+.cst-marck_script{font-family: 'Marck Script', cursive;}.cst-marck_script-heavy{font-weight: 600;}.cst-marck_script-medium{font-weight: 400;}
+.cst-piedra{font-family: 'Piedra', cursive;}
+.cst-akronim{font-family: 'Akronim', cursive;}
+.cst-arizonia{font-family: 'Arizonia', cursive;}
+.cst-terminal{ font-family: 'Geo', sans-serif;}
+.cu-tiny{font-size:10px!important}.cu-small{font-size:12px!important}.cu-medium{font-size:15px!important}.cu-large{font-size:18px!important}
+.cu-xlarge{font-size:24px!important}.cu-xxlarge{font-size:36px!important}.cu-xxxlarge{font-size:48px!important}.cu-jumbo{font-size:64px!important}.cu-mega{font-size:85px !important;}
+
+/*          body         */
+.cu-body-black{background-color: black;}
+.cu-body-gbg{background-image: linear-gradient(to right,#808080, #000000, #808080);}.cu-body-bgb{background-image: linear-gradient(to right, #000000, #808080, #000000);}
+.cu-body-bg{background-image: linear-gradient(to right, #000000, #808080);}.cu-body-gb{background-image: linear-gradient(to right, #808080, #000000);}
+.cu-op1{opacity: 0.1;}.cu-op2{opacity: 0.2;}.cu-op4{opacity: 0.4;}.cu-op6{opacity: 0.6;}.cu-op8{opacity: 0.8;}
+
+/* for icons :
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+*/
+
+/*            background     */
+.cu-bgx{background-repeat: repeat-x;}.cu-bgy{background-repeat: repeat-y;}.cu-bg1{background-repeat: no-repeat;}.cu-bg-topright{background-position: right top;}.cu-bg-topleft{background-position: left top;}.cu-bg-bottomleft{background-position: left bottom;}.cu-bg-bottomright{background-position: right bottom;}.cu-bg-attach{background-attachment: fixed;}.cu-bg-scroll{background-attachment: scroll;}
+
+/*             borders        */
+.cu-border,.cu-border-solid{border-style: solid;}.cu-bd-dash{border-style: dashed;}.cu-bd-dotted{border-style: dotted;}.cu-bd-double{border-style: double;}.cu-bd-inset{border-style: inset;}.cu-bd-outset{border-style: outset;}
+.cu-bd-none{border-style: none;}
+.cu-bd2{border-style: solid; border-width: 2px;}.cu-bd4{border-style: solid; border-width: 4px;}.cu-bd8{border-style: solid; border-width: 8px;}.cu-bd-l{border-style: solid; border-width: 16px;}.cu-bd-xl{border-style: solid; border-width: 20px;}
+.cu-bd-left{border-style: solid; border-width:  0px 0px 0px 12px;}.cu-bd-right{border-style: solid; border-width:  0px 0px 0px 12px;}.cu-bd{border-style: solid; border-width:  12px 0px ;}.cu-bd-top{border-style: solid; border-width:  12px 0px 0px 0px;}.cu-bd-bottom{border-style: solid; border-width:  0px 0px 12px 0px;}
+.cu-round, .cu-round2{border-radius: 4px;}.cu-round4{border-radius: 8px;}.cu-round8{border-radius: 12px;}
+
+/*               margins         */
+.cu-margin{margin: 16px;}.cu-margintop{margin-top: 16px !important;}.cu-marginright{margin-right: 16px !important;}.cu-marginbottom{margin-bottom: 16px !important;}.cu-marginleft{margin-left: 16px !important;}
+
+/*                paddings      */
+.cu-padding, .cu-padding2{padding: 4px 8px !important;}.cu-padding4{padding: 8px 16px !important;}.cu-padding8{padding: 12px 24px !important;}
+.cu-pta{padding-top: 16px !important; padding-bottom: 16px !important;}.cu-ptb{padding-top: 32px !important; padding-bottom: 32px !important;}.cu-ptc{padding-top: 48px !important; padding-bottom: 48px !important;}.cu-ptd{padding-top: 64px !important; padding-bottom: 64px !important;}
+
+/*                  lists     */
+.cu-ul-circle{ list-style-type: circle;}.cu-ul-square{ list-style-type: square;}.cu-ul-alpha{ list-style-type: lower-alpha;}.cu-ul-latin{ list-style-type: lower-roman;}.cu-ul-greek{ list-style-type: lower-greek;}
+.cu-ul-inden{ list-style-position: inside;}
